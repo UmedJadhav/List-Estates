@@ -1,0 +1,9 @@
+renv
+*.log
+*pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqllite3
+media
+.vscode
