@@ -2,8 +2,8 @@ from django.shortcuts import render
 # from django.http import HttpResponse
 
 # Create your views here.
-def index(req):
-    return render(req, 'pages/index.html')
+def index(request):
+    return render(request, 'pages/index.html')
 
-def about(req):
-    return render(req, 'pages/about.html')
+def about(request):
+    return render(request, 'pages/about.html')
