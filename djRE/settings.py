@@ -129,3 +129,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
+MEDIA_ROOT =  os.path.join(BASE_DIR, os.path.join('djRE','media'));
+MEDIA_URL = '/media/'
+
