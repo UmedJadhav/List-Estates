@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 
+from django.contrib.messages import constants as messages
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -134,3 +136,7 @@ STATICFILES_DIRS = [
 MEDIA_ROOT =  os.path.join(BASE_DIR, os.path.join('djRE','media'));
 MEDIA_URL = '/media/'
 
+MESSAGE_TAGS = {
+    messages.INFO: '',
+    messages.ERROR: 'danger'
+}
