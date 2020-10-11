@@ -73,6 +73,10 @@ img {
     height: 73vh;
 }
 
+#dashboard{
+  height: 42vh;
+}
+
 @media (max-width: 991px) {
   #showcase {
     padding-top: 4rem; }
