@@ -69,6 +69,10 @@ img {
 .listing-preview a {
   position: relative; }
 
+#login{
+    height: 73vh;
+}
+
 @media (max-width: 991px) {
   #showcase {
     padding-top: 4rem; }

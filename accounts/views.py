@@ -3,7 +3,11 @@ from django.shortcuts import render, redirect
 # Create your views here.
 
 def register(request):
-    return render(request, 'accounts/register.html')
+    if request.method == 'POST':
+        print('SUBMITTED regs')
+        return redirect('register')
+    else:
+        return render(request, 'accounts/register.html')
 
 def login(request):
     return render(request, 'accounts/login.html')
