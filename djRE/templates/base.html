@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
         <!-- Lightbox -->
         <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
-        <title>ListEstate</title>
+        <title>ListEstate {% block title %}{% endblock %}</title>
         <meta name="description" content="A Django based Real Estate Listing site to search the best estates in the area">
         <link rel="icon" href={% static 'img/favicon.ico' %} type="image/x-icon"/>
     </head>

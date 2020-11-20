@@ -48,9 +48,9 @@
                     {% else %}
                         class="nav-item mr-3"
                     {% endif %}
-                >
+                >    
                     <a class="nav-link" href={% url 'dashboard' %}>
-                    <i class="fas fa-columns"></i>  Welcome {{ user.username }} Dashboard</a>
+                    <i class="fas fa-columns"></i>  {{ user.username }}'s Dashboard</a>
                 </li>
                 <li class='nav-item mr-3'>
                     <a href="javascript:{ document.getElementById('logout').submit()}" class='nav-link'><i class='fas fa-sign-out-alt'></i></a>
